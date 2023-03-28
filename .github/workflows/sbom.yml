@@ -3,7 +3,7 @@ name: Build and Generate SBOM
 on:
   push:
     branches:
-      - analysis
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
